@@ -1,0 +1,25 @@
+.home_page{
+
+    padding: 3rem;
+
+}
+
+.col{
+    color: white;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active {
+    color: #f5f5f5 !important;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active:hover{
+    color: white !important;
+}
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon {
+    opacity: 1;
+    color: #f5f5f5 !important;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root:hover{
+    color: white !important;
+}
