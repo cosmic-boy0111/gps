@@ -2,10 +2,10 @@
 
 # installation
 
-1. Clone the project through ths SSH / http link from the repo with command (git clone <url> GPS).
+1. Clone the project through SSH / http link from the repo with command (git clone <url> GPS).
 2. There are two folders client and server 
 3. move to client and run (npm i) command
-4. similarlly do in server
+4. similarly do in server
 
 # set up
  
@@ -16,6 +16,6 @@
 
 # start project 
  
-1. move server folder and run nodemmon app.js command
-2. if you face issue in nodemon run command npm i -g nodemon
-3. move client folder and run npm start
+1. move server folder and run (nodemon app.js) command
+2. if you face issue in nodemon run command (npm i -g nodemon) and repeat step 1
+3. move client folder and run (npm start) command
