@@ -23,3 +23,24 @@
 .css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root:hover{
     color: white !important;
 }
+
+.logout{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: 1px solid salmon;
+    padding: .3rem .5rem;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.logout:hover{
+    background-color: salmon;
+}

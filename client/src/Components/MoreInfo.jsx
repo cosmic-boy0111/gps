@@ -6,6 +6,7 @@ import MoreTable from './MoreTable'
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 import Chart from './Chart'
+import Logout from './Logout';
 
 const MoreInfo = () => {
 
@@ -119,6 +120,7 @@ const MoreInfo = () => {
 
   return (
     <div className='more_body'>
+        <Logout />
         <div className='first'>
             <div style={{
                  fontSize: "larger"

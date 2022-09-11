@@ -102,7 +102,13 @@ function EnhancedTableHead(props) {
     <TableHead>
       <TableRow style={{
         color: 'white'
-      }}>
+      }}
+      sx={{
+        "& th": {
+          fontSize: "1.2rem",
+        },
+      }}
+      >
         <TableCell padding="checkbox">
           
         </TableCell>
@@ -382,13 +388,22 @@ export default function EnhancedTable() {
                     <TableRow
                       hover
                     //   onClick={(event) => handleClick(event, row.name)}
+                    sx = {{
+                      "& th": {
+                        fontSize: "1.2rem",
+                      },
+                      "& td": {
+                        fontSize: "1.2rem",
+                      }
+                    }}
                       role="checkbox"
                       aria-checked={isItemSelected}
                       tabIndex={-1}
                       key={row.name}
                       selected={isItemSelected}
                       style={{
-                        color:'white'
+                        color:'white',
+                        fontSize:'20px !important'
                       }}
                     >
                       <TableCell>

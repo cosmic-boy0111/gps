@@ -6,6 +6,7 @@ import {
     useNavigate
 } from 'react-router-dom'
 import Home from './Home'
+import Logout from './Logout';
 import MoreInfo from './MoreInfo';
 
 const Body = () => {

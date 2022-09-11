@@ -3,6 +3,7 @@ import React from 'react'
 import '../Style/Home.css'
 import Table from './Table'
 import { useNavigate } from 'react-router-dom'
+import Logout from './Logout'
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
 
   return (
     <div className='home_page'>
+      <Logout />
     <div  >
         GPS Summery
     </div>

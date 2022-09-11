@@ -103,6 +103,13 @@ router.get('/about', authenticate , (req,res)=>{
 })
 
 
+router.get('/logout', (req,res)=>{
+    console.log(`hello my logout page`);
+    res.clearCookie('jwToken',{path:'/'})
+    res.status(200).json({ message:'user logout'});
+})
+
+
 
 
 module.exports = router

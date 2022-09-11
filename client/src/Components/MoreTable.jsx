@@ -17,7 +17,11 @@ export default function BasicTable({rows}) {
       }}>
       <Table  aria-label="simple table" >
         <TableHead>
-          <TableRow>
+          <TableRow sx={{
+            "& th": {
+              fontSize: "1.1rem",
+            },
+          }}>
             <TableCell>Timestamp</TableCell>
             <TableCell>Location</TableCell>
           </TableRow>
@@ -26,7 +30,11 @@ export default function BasicTable({rows}) {
           {rows.map((row) => (
             <TableRow
               key={row.name}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+              sx={{ '&:last-child td, &:last-child th': { border: 0 },
+              "& td": {
+                fontSize: "1.1rem",
+              },
+            }}
             >
               
               <TableCell >{row.Timestamp}</TableCell>
